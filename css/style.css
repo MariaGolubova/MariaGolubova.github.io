@@ -425,7 +425,7 @@ ul {
       z-index: -1; }
 @media (max-width: 900px) {
         .home_banner_area .banner_inner .overlay {
-          background-position: -1100px center; } }
+          background-position: -1070px center; } }
       @media (min-width: 992px) and (max-width: 1199px) {
         .home_banner_area .banner_inner .overlay {
           background-position: center 0; } }

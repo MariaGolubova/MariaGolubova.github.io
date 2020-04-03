@@ -51,13 +51,13 @@ $(document).ready(function(){
                 },
                 message: {
                     required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    minlength: "thats all? really? at least 20 characters must be written"
                 }
             },
             submitHandler: function(form) {
                 $(form).ajaxSubmit({
                     type:"POST",
-                    data: $(form).serialize(),
+                    dataType: "json",
                     url:"https://formspree.io/mzbvlwqz",
                     success: function() {
                         $('#contactForm :input').attr('disabled', 'disabled');

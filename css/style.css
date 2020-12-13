@@ -1,43 +1,4 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky Ahmed
-@URL: http://wethemez.com
-Author E-mail: rockybd1995@gmail.com
 
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Builder Construction 
-@Author: Rocky Ahmed
-@Developed By: Rocky Ahmed
-@Developer URL: http://rocky.wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ button
-05/ banner
-06/ breadcrumb
-07/ about
-08/ team
-09/ project 
-10/ price 
-11/ team 
-12/ blog 
-13/ video  
-14/ service  
-15/ career  
-16/ contact 
-17/ footer
-
-=====================================================================*/
-/*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
@@ -263,75 +224,6 @@ ul {
       color: #1a1d24;
       font-size: 14px; }
 
-#search_input_box {
-  position: fixed;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 1200px;
-  z-index: 999;
-  text-align: center;
-  padding: 0 20px;
-  display: none; }
-  #search_input_box ::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    color: #fff; }
-  #search_input_box ::-moz-placeholder {
-    /* Firefox 19+ */
-    color: #fff; }
-  #search_input_box :-ms-input-placeholder {
-    /* IE 10+ */
-    color: #fff; }
-  #search_input_box :-moz-placeholder {
-    /* Firefox 18- */
-    color: #fff; }
-
-#search_input_box .form-control {
-  background: transparent;
-  border: 0;
-  color: #ffffff;
-  font-weight: 400;
-  font-size: 15px;
-  padding: 0; }
-
-#search_input_box .btn {
-  width: 0;
-  height: 0;
-  padding: 0;
-  border: 0; }
-
-#search_input_box .ti-close {
-  color: #fff;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 10px; }
-
-.search-inner {
-  background: #f81c1c;
-  padding: 5px 15px; }
-
-.form-control:focus {
-  box-shadow: none; }
-
-.navbar_fixed #search_input_box {
-  position: fixed;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 1200px;
-  z-index: 999;
-  text-align: center;
-  padding: 0 20px;
-  top: 80px; }
-
 .card-priceTable {
   background: #fff;
   border-radius: 4px;
@@ -347,6 +239,7 @@ ul {
   background: #f7f7f7;
   margin-bottom: 10px;
   transition: all 300ms linear 0s; }
+  
   @media (min-width: 768px) {
     .priceTable-header {
       padding: 45px 10px 30px 10px; } }

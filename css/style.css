@@ -3932,7 +3932,7 @@ h6 {
 @media (max-width: 767px) {
   .testimonial__item .testimonial__img {
     padding-left: 0;
-    width: 100px;
+    width: 200px;
     margin-bottom: 17px;
     border-radius: 63px;
     overflow: hidden;
